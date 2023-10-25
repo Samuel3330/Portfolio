@@ -6,7 +6,7 @@ const Technologies = () => {
   return (
     <>
       <section
-        className="bg-cover w-full bg-[url('Tegnologias.jpg')] min-h-[100vh] pb-4 flex flex-col items-center gap-8 max-[500px]:bg-center"
+        className="bg-cover w-full min-h-[100vh] pb-4 flex flex-col items-center gap-8 max-[500px]:bg-center"
         id="technologies"
       >
         <Titles title="TEGNOLOGIAS" />
