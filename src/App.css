@@ -1,0 +1,236 @@
+body{
+  overflow-x: hidden;
+}
+
+.path-0{
+  animation:pathAnim-0 132s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.path-1{
+  animation:pathAnim-0 152s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.path-2{
+  animation:pathAnim-0 142s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.path-3{
+  animation:pathAnim-0 147s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.path-4{
+  animation:pathAnim-0 152s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.path-5{
+  animation:pathAnim-0 132s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pathAnim-0{
+  0%{
+    d: path("M 0,600 C 0,600 0,200 0,200 C 126.14354066985646,177.04306220095694 252.28708133971293,154.08612440191388 335,163 C 417.7129186602871,171.91387559808612 456.9952153110048,212.69856459330146 526,240 C 595.0047846889952,267.30143540669854 693.732057416268,281.11961722488036 811,271 C 928.267942583732,260.88038277511964 1064.0765550239234,226.82296650717703 1172,211 C 1279.9234449760766,195.17703349282297 1359.9617224880383,197.58851674641147 1440,200 C 1440,200 1440,600 1440,600 Z");
+  }
+  25%{
+    d: path("M 0,600 C 0,600 0,200 0,200 C 89.17703349282297,190 178.35406698564594,180 287,168 C 395.64593301435406,156 523.7607655502393,142 629,154 C 734.2392344497607,166 816.6028708133971,204.00000000000003 887,199 C 957.3971291866029,193.99999999999997 1015.8277511961724,146 1106,139 C 1196.1722488038276,132 1318.0861244019138,166 1440,200 C 1440,200 1440,600 1440,600 Z");
+  }
+  50%{
+    d: path("M 0,600 C 0,600 0,200 0,200 C 80.05741626794256,244.63157894736844 160.1148325358851,289.2631578947369 264,264 C 367.8851674641149,238.73684210526315 495.598086124402,143.57894736842107 588,128 C 680.401913875598,112.42105263157893 737.4928229665071,176.42105263157896 825,195 C 912.5071770334929,213.57894736842104 1030.4306220095693,186.73684210526315 1138,180 C 1245.5693779904307,173.26315789473685 1342.7846889952152,186.63157894736844 1440,200 C 1440,200 1440,600 1440,600 Z");
+  }
+  75%{
+    d: path("M 0,600 C 0,600 0,200 0,200 C 125.53110047846889,193.33014354066984 251.06220095693777,186.6602870813397 341,191 C 430.9377990430622,195.3397129186603 485.28229665071774,210.68899521531102 584,201 C 682.7177033492823,191.31100478468898 825.8086124401913,156.58373205741628 912,142 C 998.1913875598087,127.41626794258373 1027.4832535885168,132.97607655502392 1106,146 C 1184.5167464114832,159.02392344497608 1312.2583732057415,179.51196172248802 1440,200 C 1440,200 1440,600 1440,600 Z");
+  }
+  100%{
+    d: path("M 0,600 C 0,600 0,200 0,200 C 126.14354066985646,177.04306220095694 252.28708133971293,154.08612440191388 335,163 C 417.7129186602871,171.91387559808612 456.9952153110048,212.69856459330146 526,240 C 595.0047846889952,267.30143540669854 693.732057416268,281.11961722488036 811,271 C 928.267942583732,260.88038277511964 1064.0765550239234,226.82296650717703 1172,211 C 1279.9234449760766,195.17703349282297 1359.9617224880383,197.58851674641147 1440,200 C 1440,200 1440,600 1440,600 Z");
+  }
+}
+
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+.contenedor::-webkit-scrollbar, body::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.contenedor::-webkit-scrollbar:vertical, body::-webkit-scrollbar:vertical {
+  width:10px;
+}
+
+.contenedor::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button,
+body::-webkit-scrollbar-button:increment, body::-webkit-scrollbar-button {
+  display: none;
+} 
+
+.contenedor::-webkit-scrollbar:horizontal, body::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.contenedor::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+  background-color: #575757;
+  border: 2px solid #f1f2f3;
+  border-radius: 20px;
+}
+
+.contenedor::-webkit-scrollbar-track, body::-webkit-scrollbar-track {
+  border-radius: 10px;  
+}
+
+.contenedor, body{
+  /*Estilos estándar experimentales (Principalmente Firefox)*/
+  scrollbar-color: rgba(58, 58, 58, 0.5) rgba(71, 71, 71, 0);
+  scrollbar-width: thin;
+}
+
+.animated-typing span{
+  position: relative;
+}
+
+.animated-typing span::before{
+  content: ' Youtuber';
+  animation: words 19.9999999s infinite;
+}
+
+.animated-typing span::after{
+  content: '';
+  position: absolute;
+  width: calc(100% + 8px);
+  height: 100%;
+  background: #fff;
+  border-left: 2px solid #000;
+  right: -8px;
+  animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+  to{
+    border-left: transparent;
+  }
+}
+
+@keyframes words {
+  0%,20%{
+    content: 'Engineer';
+    color: #3d3d3d;
+  }
+  21%,40%{
+    content: 'Designer';
+    color: #3d3d3d;
+  }
+  41%,60%{
+    content: 'Developer';
+    color: #3d3d3d;
+  }
+  61%,80%{
+    content: 'Freelancer';
+    color: #3d3d3d;
+  }
+  81%,100%{
+    content: 'Networking';
+    color: #3d3d3d;
+  }
+
+  
+}
+
+
+@keyframes typing {
+  10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+    width: 0;
+  }
+  5%,20%,25%,40%,45%,60%,65%,80%,85%{
+    width: calc(100% + 8px);
+
+  }
+  
+}
+
+.ball::before{
+  content: '';
+  position: absolute;
+  left: -22px;
+  top: 3px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #fb5607;
+  border-radius: 100%;
+}
+.ball2::before{
+  content: '';
+  position: absolute;
+  left: -22px;
+  top: 3px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #3a86ff;
+  border-radius: 100%;
+}
+.ball3::before{
+  content: '';
+  position: absolute;
+  left: -22px;
+  top: 3px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #8338ec;
+  border-radius: 100%;
+}
+
+
+.list::before{
+  content: '';
+  position: absolute;
+  left: -18px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  border: 4px solid #64748B;
+  border-radius: 100%;
+}
+
+.basico::after{
+  content: '';
+  position: absolute;
+  right: -15px;
+  top: 8px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #fb5607;
+  border-radius: 100%;
+}
+.intermedio::after{
+  content: '';
+  position: absolute;
+  right: -15px;
+  top: 8px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #3a86ff;
+  border-radius: 100%;
+}
+.avanzado::after{
+  content: '';
+  position: absolute;
+  right: -15px;
+  top: 8px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #8338ec;
+  border-radius: 100%;
+}
+
+.fol{
+  color: #00000096;
+}
