@@ -236,9 +236,9 @@ body::-webkit-scrollbar-button:increment, body::-webkit-scrollbar-button {
 }
 
 .hero{
-  background-image: url('Hero.jpg');
+  background-image: url('./Hero.jpg');
 }
 
 #technologies{
-  background-image: url('Tegnologias.jpg');
+  background-image: url('./Tegnologias.jpg');
 }
