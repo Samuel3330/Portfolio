@@ -16,7 +16,10 @@ const Projects = () => {
   return (
     <section className=" sm:min-h-[100vh] sm:pb-10">
       <Titles title={"Projects"}></Titles>
-      <div className="lg:w-[80%] sm:w-[90%] h-auto w-full flex sm:justify-around sm:m-auto sm:items-center sm:flex-wrap sm:gap-y-5 gap-5 sm:snap-none snap-x snap-mandatory min-sm:overflow-x-scroll scroll-smooth focus:scroll-auto bg-slate-100 sm:bg-white py-6 sm:p-0">
+      <div
+        className="lg:w-[80%] sm:w-[90%] h-auto w-full flex sm:justify-around sm:m-auto sm:items-center sm:flex-wrap sm:gap-y-5 gap-5 sm:snap-none snap-x snap-mandatory 
+      max-[640px]:overflow-x-scroll scroll-smooth focus:scroll-auto bg-slate-100 sm:bg-white py-6 sm:p-0"
+      >
         <div className="flex flex-col w-[100%] lg:w-[30%] sm:w-[40%] scroll-ml-2 snap-start">
           <div className="bg-cover shadow-md w-56 sm:w-auto rounded-lg relative overflow-hidden">
             <div>
