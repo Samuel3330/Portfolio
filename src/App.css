@@ -241,4 +241,5 @@ body::-webkit-scrollbar-button:increment, body::-webkit-scrollbar-button {
 
 #technologies{
   background-image: url('../Tegnologias.jpg');
+  color: gray;
 }

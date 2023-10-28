@@ -64,14 +64,24 @@ const Cart = () => {
           {" />"}
         </div>
         <div className="flex w-full flex-row items-center justify-center gap-5">
-          <MediaButtons url={"https://github.com/Samuel3330"}>
+          <MediaButtons
+            url={"https://github.com/Samuel3330"}
+            color={"text-gray-400"}
+            hover={"hover:text-white text-2xl xl:text-3xl"}
+          >
             <SiGithub />
           </MediaButtons>
-          <MediaButtons url={"www.linkedin.com/in/investing-dep-aa4209266"}>
+          <MediaButtons
+            url={"www.linkedin.com/in/investing-dep-aa4209266"}
+            color={"text-gray-400"}
+            hover={"hover:text-white text-2xl xl:text-3xl"}
+          >
             <SiLinkedin />
           </MediaButtons>
           <MediaButtons
             url={"https://instagram.com/samy.front?igshid=NzZlODBkYWE4Ng=="}
+            color={"text-gray-400"}
+            hover={"hover:text-white text-2xl xl:text-3xl"}
           >
             <SiInstagram />
           </MediaButtons>
@@ -79,6 +89,8 @@ const Cart = () => {
             url={
               "https://www.facebook.com/profile.php?id=100008254805130&mibextid=ZbWKwL"
             }
+            color={"text-gray-400"}
+            hover={"hover:text-white text-2xl xl:text-3xl"}
           >
             <SiFacebook />
           </MediaButtons>

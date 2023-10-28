@@ -41,7 +41,7 @@ const Background = () => {
   return (
     <>
       <section
-        className="w-full h-auto min-h-[100vh] overflow-hidden relative bg-fixed hero"
+        className="w-full h-auto min-h-[100vh] overflow-hidden relative bg-fixed hero bg-top"
         id="hero"
       >
         <Wave

@@ -12,7 +12,7 @@ const Titles = ({ title }) => {
             {" "}
             {"<"}&nbsp;
           </span>
-          <h1 className="text-xl sm:text-3xl text-slate-900 font-title">
+          <h1 className="text-xl sm:text-3xl text-slate-900 font-title tracking-wide">
             {title}
           </h1>
           <span className="text-xl sm:text-3xl text-slate-900 font-title">

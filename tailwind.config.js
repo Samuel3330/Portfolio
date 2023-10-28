@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        title: "Ubuntu Mono, monospace",
+        title: "Roboto, sans-serif",
       },
     },
   },

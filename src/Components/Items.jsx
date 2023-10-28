@@ -5,7 +5,7 @@ const Items = ({ item, nivel }) => {
   return (
     <>
       <li
-        className={`text-sm md:text-md text-gray-800 relative font-mono ${nivel} inline-block`}
+        className={`text-sm md:text-md font-title font-normal text-gray-800 relative ${nivel} inline-block`}
       >
         {">"}
         &nbsp;

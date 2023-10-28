@@ -17,7 +17,7 @@ const Header = () => {
       <header
         className={`flex fixed top-0 left-0 ${
           showMenu ? "translate-x-0" : "-translate-x-full"
-        } flex-col justify-between gap-8 bg-gray-100 min-h-screen max-h-screen max-[500px]:w-full w-[25%] p-4 overflow-y-scroll z-20 transition-transform duration-75 ease-in-out contenedor`}
+        } flex-col justify-between gap-8 bg-gray-100 min-h-screen max-h-screen max-[500px]:w-full lg:w-[25%] sm:w-[35%] w-[50%] p-4 overflow-y-scroll z-20 transition-transform duration-75 ease-in-out contenedor`}
       >
         {/*  Top  */}
         <section>
